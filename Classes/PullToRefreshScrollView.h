@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol PullToRefreshScrollViewDelegate;
 
 @interface PullToRefreshScrollView : UIScrollView<UIScrollViewDelegate> {
 
@@ -20,6 +21,7 @@
     NSString *textPull;
     NSString *textRelease;
     NSString *textLoading;
+	id <PullToRefreshScrollViewDelegate> delegate1;
 }
 
 @property (nonatomic, retain) UIView *refreshHeaderView;
@@ -29,11 +31,16 @@
 @property (nonatomic, copy) NSString *textPull;
 @property (nonatomic, copy) NSString *textRelease;
 @property (nonatomic, copy) NSString *textLoading;
-
--(void)addPullToRefreshHeader;
+@property (nonatomic, assign) id <PullToRefreshScrollViewDelegate> delegate1; 
+ 
 -(void)startLoading;
 -(void)stopLoading;
--(void)refresh;
--(void)setHeader;
+-(void)refresh; 
+
+@end
+
+@protocol PullToRefreshScrollViewDelegate
+
+-(void)refreshScrollView;
 
 @end

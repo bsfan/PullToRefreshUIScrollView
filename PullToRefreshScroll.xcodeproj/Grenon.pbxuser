@@ -1,5 +1,12 @@
 // !$*UTF8*$!
 {
+	1D3623240D0F684500981E51 /* PullToRefreshScrollAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {891, 639}}";
+			sepNavSelRange = "{552, 0}";
+			sepNavVisRange = "{0, 552}";
+		};
+	};
 	1D6058900D05DD3D006BFB54 /* PullToRefreshScroll */ = {
 		activeExec = 0;
 		executables = (
@@ -8,16 +15,16 @@
 	};
 	28D7ACF60DDB3853001CB0EB /* PullToRefreshScrollViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {891, 802}}";
-			sepNavSelRange = "{529, 0}";
-			sepNavVisRange = "{0, 529}";
+			sepNavIntBoundsRect = "{{0, 0}, {914, 802}}";
+			sepNavSelRange = "{575, 0}";
+			sepNavVisRange = "{0, 583}";
 		};
 	};
 	28D7ACF70DDB3853001CB0EB /* PullToRefreshScrollViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {891, 1729}}";
-			sepNavSelRange = "{2725, 0}";
-			sepNavVisRange = "{0, 1220}";
+			sepNavIntBoundsRect = "{{0, 0}, {914, 1885}}";
+			sepNavSelRange = "{2914, 18}";
+			sepNavVisRange = "{1930, 1530}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -28,17 +35,17 @@
 			1D6058900D05DD3D006BFB54 /* PullToRefreshScroll */,
 		);
 		breakpoints = (
-			487B9BEE1312F33800C114C3 /* PullToRefreshScrollView.m:23 */,
-			487B9C2C1312F96700C114C3 /* PullToRefreshScrollViewController.m:45 */,
-			487B9C2E1312F98000C114C3 /* PullToRefreshScrollViewController.m:68 */,
-			487B9C49131302CD00C114C3 /* PullToRefreshScrollView.m:32 */,
-			487B9CC513131FCF00C114C3 /* PullToRefreshScrollView.m:16 */,
-			487B9CD71313235A00C114C3 /* PullToRefreshScrollViewController.m:39 */,
-			487B9CD91313235F00C114C3 /* PullToRefreshScrollView.m:79 */,
-			487B9D141313291900C114C3 /* PullToRefreshScrollView.m:39 */,
-			487B9D161313292600C114C3 /* PullToRefreshScrollView.m:44 */,
-			487B9D1C13132AB800C114C3 /* PullToRefreshScrollView.m:56 */,
-			487B9D3B13132E8C00C114C3 /* PullToRefreshScrollViewController.m:73 */,
+			487B9BEE1312F33800C114C3 /* PullToRefreshScrollView.m:18 */,
+			487B9C2C1312F96700C114C3 /* PullToRefreshScrollViewController.m:47 */,
+			487B9C2E1312F98000C114C3 /* PullToRefreshScrollViewController.m:70 */,
+			487B9C49131302CD00C114C3 /* PullToRefreshScrollView.m:18 */,
+			487B9CC513131FCF00C114C3 /* PullToRefreshScrollView.m:17 */,
+			487B9CD71313235A00C114C3 /* PullToRefreshScrollViewController.m:41 */,
+			487B9CD91313235F00C114C3 /* PullToRefreshScrollView.m:58 */,
+			487B9D141313291900C114C3 /* PullToRefreshScrollView.m:19 */,
+			487B9D161313292600C114C3 /* PullToRefreshScrollView.m:24 */,
+			487B9D1C13132AB800C114C3 /* PullToRefreshScrollView.m:36 */,
+			487B9D3B13132E8C00C114C3 /* PullToRefreshScrollViewController.m:75 */,
 		);
 		codeSenseManager = 487B9BE61312F1F900C114C3 /* Code sense */;
 		executables = (
@@ -67,70 +74,80 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 320053690;
-			PBXWorkspaceStateSaveDate = 320053690;
+			PBXPerProjectTemplateStateSaveDate = 320137817;
+			PBXWorkspaceStateSaveDate = 320137817;
 		};
 		perUserProjectItems = {
-			482FCA5B13134DB50081E6C6 = 482FCA5B13134DB50081E6C6 /* PBXTextBookmark */;
-			482FCA5C13134DB50081E6C6 = 482FCA5C13134DB50081E6C6 /* PBXTextBookmark */;
-			482FCA5D13134DB50081E6C6 = 482FCA5D13134DB50081E6C6 /* PBXTextBookmark */;
-			482FCA5E13134DB50081E6C6 = 482FCA5E13134DB50081E6C6 /* PBXTextBookmark */;
-			485F44921313A26000373FC0 /* PBXTextBookmark */ = 485F44921313A26000373FC0 /* PBXTextBookmark */;
+			485F44B51313A70B00373FC0 = 485F44B51313A70B00373FC0 /* PBXTextBookmark */;
+			485F44B61313A70B00373FC0 = 485F44B61313A70B00373FC0 /* PBXTextBookmark */;
+			485F44B71313A70B00373FC0 = 485F44B71313A70B00373FC0 /* PBXTextBookmark */;
+			485F44D31313A7F400373FC0 = 485F44D31313A7F400373FC0 /* PBXTextBookmark */;
+			485F44D51313A7F400373FC0 = 485F44D51313A7F400373FC0 /* PBXTextBookmark */;
+			4872797A131459D400477F05 = 4872797A131459D400477F05 /* PBXTextBookmark */;
 			487B9D5D131335FA00C114C3 = 487B9D5D131335FA00C114C3 /* PBXBookmark */;
-			487B9D5E131335FA00C114C3 = 487B9D5E131335FA00C114C3 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 487B9BE51312F1F900C114C3 /* Source Control */;
 		userBuildSettings = {
 		};
 	};
-	482FCA5B13134DB50081E6C6 /* PBXTextBookmark */ = {
+	485F44B51313A70B00373FC0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 487B9BE71312F20C00C114C3 /* PullToRefreshScrollView.h */;
-		name = "PullToRefreshScrollView.h: 36";
+		fRef = 1D3623240D0F684500981E51 /* PullToRefreshScrollAppDelegate.h */;
+		name = "PullToRefreshScrollAppDelegate.h: 23";
 		rLen = 0;
-		rLoc = 980;
+		rLoc = 552;
 		rType = 0;
-		vrLen = 1019;
+		vrLen = 552;
 		vrLoc = 0;
 	};
-	482FCA5C13134DB50081E6C6 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 487B9BE81312F20C00C114C3 /* PullToRefreshScrollView.m */;
-		name = "PullToRefreshScrollView.m: 41";
-		rLen = 0;
-		rLoc = 1141;
-		rType = 0;
-		vrLen = 1513;
-		vrLoc = 968;
-	};
-	482FCA5D13134DB50081E6C6 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* PullToRefreshScrollViewController.m */;
-		name = "PullToRefreshScrollViewController.m: 77";
-		rLen = 0;
-		rLoc = 1863;
-		rType = 0;
-		vrLen = 1536;
-		vrLoc = 1164;
-	};
-	482FCA5E13134DB50081E6C6 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* PullToRefreshScrollViewController.m */;
-		name = "PullToRefreshScrollViewController.m: 77";
-		rLen = 0;
-		rLoc = 1863;
-		rType = 0;
-		vrLen = 1620;
-		vrLoc = 776;
-	};
-	485F44921313A26000373FC0 /* PBXTextBookmark */ = {
+	485F44B61313A70B00373FC0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* PullToRefreshScrollViewController.m */;
 		name = "PullToRefreshScrollViewController.m: 105";
 		rLen = 0;
-		rLoc = 2725;
+		rLoc = 2762;
 		rType = 0;
 		vrLen = 1220;
+		vrLoc = 0;
+	};
+	485F44B71313A70B00373FC0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* PullToRefreshScrollViewController.h */;
+		name = "PullToRefreshScrollViewController.h: 23";
+		rLen = 0;
+		rLoc = 583;
+		rType = 0;
+		vrLen = 529;
+		vrLoc = 0;
+	};
+	485F44D31313A7F400373FC0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 487B9BE71312F20C00C114C3 /* PullToRefreshScrollView.h */;
+		name = "PullToRefreshScrollView.h: 35";
+		rLen = 0;
+		rLoc = 1078;
+		rType = 0;
+		vrLen = 1219;
+		vrLoc = 0;
+	};
+	485F44D51313A7F400373FC0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 487B9BE81312F20C00C114C3 /* PullToRefreshScrollView.m */;
+		name = "PullToRefreshScrollView.m: 15";
+		rLen = 0;
+		rLoc = 334;
+		rType = 0;
+		vrLen = 1676;
+		vrLoc = 0;
+	};
+	4872797A131459D400477F05 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 487B9BE81312F20C00C114C3 /* PullToRefreshScrollView.m */;
+		name = "PullToRefreshScrollView.m: 15";
+		rLen = 0;
+		rLoc = 334;
+		rType = 0;
+		vrLen = 1244;
 		vrLoc = 0;
 	};
 	487B9BE01312F1DB00C114C3 /* PullToRefreshScroll */ = {
@@ -181,21 +198,21 @@
 	};
 	487B9BE71312F20C00C114C3 /* PullToRefreshScrollView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {891, 734}}";
-			sepNavSelRange = "{980, 0}";
-			sepNavVisRange = "{0, 1019}";
+			sepNavIntBoundsRect = "{{0, 0}, {914, 802}}";
+			sepNavSelRange = "{1187, 25}";
+			sepNavVisRange = "{0, 1219}";
 			sepNavWindowFrame = "{{1280, 21}, {1280, 774}}";
 		};
 	};
 	487B9BE81312F20C00C114C3 /* PullToRefreshScrollView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1006, 2054}}";
-			sepNavSelRange = "{1141, 0}";
-			sepNavVisRange = "{968, 1513}";
+			sepNavIntBoundsRect = "{{0, 0}, {1006, 1573}}";
+			sepNavSelRange = "{3622, 0}";
+			sepNavVisRange = "{1626, 2264}";
 			sepNavWindowFrame = "{{1280, 21}, {1280, 774}}";
 		};
 	};
-	487B9BEE1312F33800C114C3 /* PullToRefreshScrollView.m:23 */ = {
+	487B9BEE1312F33800C114C3 /* PullToRefreshScrollView.m:18 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -207,13 +224,12 @@
 		functionName = "-initWithFrame:";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 23;
-		location = PullToRefreshScroll;
-		modificationTime = 320025347.848542;
+		lineNumber = 18;
+		modificationTime = 320098282.707444;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};
-	487B9C2C1312F96700C114C3 /* PullToRefreshScrollViewController.m:45 */ = {
+	487B9C2C1312F96700C114C3 /* PullToRefreshScrollViewController.m:47 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -225,13 +241,12 @@
 		functionName = "-viewDidLoad";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 45;
-		location = PullToRefreshScroll;
-		modificationTime = 320025347.880149;
+		lineNumber = 47;
+		modificationTime = 320098282.708016;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};
-	487B9C2E1312F98000C114C3 /* PullToRefreshScrollViewController.m:68 */ = {
+	487B9C2E1312F98000C114C3 /* PullToRefreshScrollViewController.m:70 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -243,13 +258,12 @@
 		functionName = "-viewDidLoad";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 68;
-		location = PullToRefreshScroll;
-		modificationTime = 320025347.978726;
+		lineNumber = 70;
+		modificationTime = 320098282.707918;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};
-	487B9C49131302CD00C114C3 /* PullToRefreshScrollView.m:32 */ = {
+	487B9C49131302CD00C114C3 /* PullToRefreshScrollView.m:18 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -261,13 +275,12 @@
 		functionName = "-initWithFrame:";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 32;
-		location = PullToRefreshScroll;
-		modificationTime = 320025348.018781;
+		lineNumber = 18;
+		modificationTime = 320098282.707567;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};
-	487B9CC513131FCF00C114C3 /* PullToRefreshScrollView.m:16 */ = {
+	487B9CC513131FCF00C114C3 /* PullToRefreshScrollView.m:17 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -279,13 +292,12 @@
 		functionName = "-init";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 16;
-		location = PullToRefreshScroll;
-		modificationTime = 320025348.054887;
+		lineNumber = 17;
+		modificationTime = 320098282.7080621;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};
-	487B9CD71313235A00C114C3 /* PullToRefreshScrollViewController.m:39 */ = {
+	487B9CD71313235A00C114C3 /* PullToRefreshScrollViewController.m:41 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -297,13 +309,12 @@
 		functionName = "-viewDidLoad";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 39;
-		location = PullToRefreshScroll;
-		modificationTime = 320025348.16563;
+		lineNumber = 41;
+		modificationTime = 320098282.708274;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};
-	487B9CD91313235F00C114C3 /* PullToRefreshScrollView.m:79 */ = {
+	487B9CD91313235F00C114C3 /* PullToRefreshScrollView.m:58 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -315,13 +326,12 @@
 		functionName = "-setHeader";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 79;
-		location = PullToRefreshScroll;
-		modificationTime = 320025348.1972989;
+		lineNumber = 58;
+		modificationTime = 320098282.707809;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};
-	487B9D141313291900C114C3 /* PullToRefreshScrollView.m:39 */ = {
+	487B9D141313291900C114C3 /* PullToRefreshScrollView.m:19 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -333,13 +343,12 @@
 		functionName = "-scrollViewWillBeginDragging:";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 39;
-		location = PullToRefreshScroll;
-		modificationTime = 320025348.225641;
+		lineNumber = 19;
+		modificationTime = 320098282.707177;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};
-	487B9D161313292600C114C3 /* PullToRefreshScrollView.m:44 */ = {
+	487B9D161313292600C114C3 /* PullToRefreshScrollView.m:24 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -351,13 +360,12 @@
 		functionName = "-scrollViewDidEndDragging:willDecelerate:";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 44;
-		location = PullToRefreshScroll;
-		modificationTime = 320025348.330744;
+		lineNumber = 24;
+		modificationTime = 320098282.7076281;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};
-	487B9D1C13132AB800C114C3 /* PullToRefreshScrollView.m:56 */ = {
+	487B9D1C13132AB800C114C3 /* PullToRefreshScrollView.m:36 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -369,13 +377,12 @@
 		functionName = "-startLoading";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 56;
-		location = PullToRefreshScroll;
-		modificationTime = 320025348.359004;
+		lineNumber = 36;
+		modificationTime = 320098282.708179;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};
-	487B9D3B13132E8C00C114C3 /* PullToRefreshScrollViewController.m:73 */ = {
+	487B9D3B13132E8C00C114C3 /* PullToRefreshScrollViewController.m:75 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -387,24 +394,13 @@
 		functionName = "-rearrangeSubviews:";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 73;
-		location = PullToRefreshScroll;
-		modificationTime = 320025348.393797;
+		lineNumber = 75;
+		modificationTime = 320098282.707543;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};
 	487B9D5D131335FA00C114C3 /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = 487B9D061313282400C114C3 /* arrow.png */;
-	};
-	487B9D5E131335FA00C114C3 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* PullToRefreshScrollViewController.h */;
-		name = "PullToRefreshScrollViewController.h: 23";
-		rLen = 0;
-		rLoc = 529;
-		rType = 0;
-		vrLen = 529;
-		vrLoc = 0;
 	};
 }

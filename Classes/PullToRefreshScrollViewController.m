@@ -37,6 +37,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	  	
+	self.scrollView.delegate1 = self;
+	
 	NSInteger numberOfRows;
 	
 	if([UIDevice currentDevice].orientation == UIDeviceOrientationPortrait)
@@ -108,6 +110,15 @@
 	}
 }
 
+-(void)refreshScrollView
+{
+	[self performSelector:@selector(stopLoading) withObject:nil afterDelay:2.0];	
+}
+
+-(void)stopLoading
+{
+	[self.scrollView stopLoading];
+}
 
 // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {

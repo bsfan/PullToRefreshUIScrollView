@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "PullToRefreshScrollView.h"
 
-@interface PullToRefreshScrollViewController : UIViewController<UIScrollViewDelegate> {
+@interface PullToRefreshScrollViewController : UIViewController<UIScrollViewDelegate, PullToRefreshScrollViewDelegate> {
 	
 	IBOutlet PullToRefreshScrollView *scrollView;
 	BOOL ScreenIsLoaded;
@@ -17,6 +17,8 @@
 
 @property(nonatomic, retain) IBOutlet PullToRefreshScrollView *scrollView;
 @property(nonatomic, assign) BOOL ScreenIsLoaded;
+
+-(void)stopLoading;
 
 @end
 

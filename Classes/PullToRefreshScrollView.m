@@ -12,28 +12,8 @@
 
 @implementation PullToRefreshScrollView
 
+@synthesize delegate1;
 @synthesize textPull, textRelease, textLoading, refreshHeaderView, refreshLabel, refreshArrow, refreshSpinner;
-
-- (id)initWithFrame:(CGRect)frame {
-    
-    self = [super initWithFrame:frame];
-    if (self) {
-        // Initialization code.
-		
-		textPull = [[NSString alloc] initWithString:@"Pull down to refresh..."];
-        textRelease = [[NSString alloc] initWithString:@"Release to refresh..."];
-        textLoading = [[NSString alloc] initWithString:@"Loading..."];
-		
-		refreshHeaderView = [[UIView alloc] initWithFrame:CGRectMake(0, -80, 0, 80)];
-		refreshHeaderView.backgroundColor = [UIColor grayColor];
-		
-		[self addSubview:refreshHeaderView];
-		
-		//[super awakeFromNib];
-
-    }
-    return self;
-}
 
 - (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView {
     //if (isLoading) return;
@@ -74,19 +54,10 @@
     [UIView setAnimationDuration:0.3];
     [UIView setAnimationDidStopSelector:@selector(stopLoadingComplete:finished:context:)];
     self.contentInset = UIEdgeInsetsZero;
-    [refreshArrow layer].transform = CATransform3DMakeRotation(M_PI * 2, 0, 0, 1);
     [UIView commitAnimations];
 }
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code.
-}
-*/
-
-- (void)dealloc {
+-(void)dealloc {
     [refreshHeaderView release];
     [refreshLabel release];
     [refreshArrow release];
@@ -142,7 +113,7 @@
 - (void)refresh {
     // This is just a demo. Override this method with your custom reload action.
     // Don't forget to call stopLoading at the end.
-    [self performSelector:@selector(stopLoading) withObject:nil afterDelay:2.0];
+	[self.delegate1 refreshScrollView];
 }
 
 

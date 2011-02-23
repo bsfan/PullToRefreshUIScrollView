@@ -3,7 +3,7 @@
 //  PullToRefreshScroll
 //
 //  Created by Joshua Grenon on 2/21/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 MotionMobs. All rights reserved.
 //
 
 #import "PullToRefreshScrollAppDelegate.h"

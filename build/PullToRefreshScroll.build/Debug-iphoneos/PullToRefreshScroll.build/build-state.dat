@@ -1,7 +1,7 @@
 TPullToRefreshScroll
 v7
 r0
-t320141050.318777
+t320141247.842991
 cCheck dependencies
 cCpResource build/Debug-iphoneos/PullToRefreshScroll.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
 cProcessInfoPlistFile /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app/Info.plist PullToRefreshScroll-Info.plist
@@ -198,7 +198,7 @@ s8
 
 N/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app/PullToRefreshScroll
 t1298448250
-s34492
+s40512
 
 N/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app/PullToRefreshScrollViewController.nib
 t1298361047
@@ -267,15 +267,16 @@ s1238
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies320141049#320141049#0(0"0(0#1#0"8616273216#0"0#
+lSLF07#2@18"Check dependencies320141247#320141247#0(0"0(0#1#0"8622483840#0"0#
 
 CCodeSign /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app
-s320141050.167775
-e320141050.318737
+s320141247.631332
+e320141247.842947
 r1
 xCodeSign
 x/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app
-lSLF07#2@53"CodeSign build/Debug-iphoneos/PullToRefreshScroll.app320141050#320141050#0(0"0(0#0#99"/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app8669091488#771"    cd /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Josh Grenon (Z934AE4KBX)" --resource-rules=/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app/ResourceRules.plist --entitlements /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/PullToRefreshScroll.xcent /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app0#
+o/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app: replacing existing signature
+lSLF07#2@53"CodeSign build/Debug-iphoneos/PullToRefreshScroll.app320141247#320141247#0(130"/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app: replacing existing signature0(0#0#99"/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app8615424960#771"    cd /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Josh Grenon (Z934AE4KBX)" --resource-rules=/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app/ResourceRules.plist --entitlements /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/PullToRefreshScroll.xcent /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app0#
 
 CCompileC build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/Objects-normal/armv7/PullToRefreshScrollAppDelegate.o /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s320141049.809081

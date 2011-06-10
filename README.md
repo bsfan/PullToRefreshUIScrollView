@@ -1,6 +1,8 @@
 PullToRefreshUIScrollView
 ============
 
+<img style="float:right" src="https://github.com/joshgrenon/PullToRefreshUIScrollView/raw/master/screenshot.png" alt="Screenshot" />
+
 Inspired by and some code taken from [PullToRefresh](https://github.com/leah/PullToRefresh/)
 
 How to install

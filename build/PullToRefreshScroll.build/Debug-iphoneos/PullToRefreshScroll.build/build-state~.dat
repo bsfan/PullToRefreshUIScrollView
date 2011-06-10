@@ -1,371 +1,0 @@
-TPullToRefreshScroll
-v7
-r0
-t320008924.636275
-cCheck dependencies
-cCpResource build/Debug-iphoneos/PullToRefreshScroll.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-cProcessInfoPlistFile /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app/Info.plist PullToRefreshScroll-Info.plist
-cCompileXIB /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/MainWindow.xib
-cCompileXIB /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/PullToRefreshScrollViewController.xib
-cProcessPCH /var/folders/fu/fubKrlHgH0WRSlKvLFlIaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PullToRefreshScroll_Prefix-eqmhsrcllhqtpefzccsnuqcmdfxc/PullToRefreshScroll_Prefix.pch.gch PullToRefreshScroll_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/Objects-normal/armv7/main.o /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/Objects-normal/armv7/PullToRefreshScrollAppDelegate.o /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/Objects-normal/armv7/PullToRefreshScrollViewController.o /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/Objects-normal/armv7/PullToRefreshScrollView.o /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app/PullToRefreshScroll normal armv7
-cGenerateDSYMFile /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app.dSYM /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app/PullToRefreshScroll
-cProcessProductPackaging "/Users/Grenon/Library/MobileDevice/Provisioning Profiles/D3CEEA27-FCBC-43E0-BAD9-C369802C1045.mobileprovision" /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app/embedded.mobileprovision
-cTouch /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app
-cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/PullToRefreshScroll.xcent
-cCodeSign /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
-c000000004CC7DC9E0000000000000110
-t1288166558
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
-c000000004CB3DFCF00000000000001A7
-t1286856655
-s423
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-c000000004CB3DFCF00000000000001E5
-t1286856655
-s485
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004CC10EF500000000003532B0
-t1287720693
-s3486384
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004CC10F4700000000003E1F20
-t1287720775
-s4071200
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004CC10F1C0000000000001466
-t1287720732
-s5222
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004CC11AE60000000000000AA1
-t1287723750
-s2721
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004CC11B750000000000C769F0
-t1287723893
-s13068784
-
-N/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollAppDelegate.h
-c000000004D62BA5B0000000000000228
-t1298315867
-s552
-i<UIKit/UIKit.h>
-
-N/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollAppDelegate.m
-c000000004D62BA5B00000000000007F1
-t1298315867
-s2033
-i"PullToRefreshScrollAppDelegate.h"
-i"PullToRefreshScrollViewController.h"
-
-N/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.h
-c000000004D62BAD400000000000003D2
-t1298315988
-s978
-i<UIKit/UIKit.h>
-
-N/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m
-c000000004D62BB5A00000000000003F8
-t1298316122
-s1016
-i"PullToRefreshScrollView.h"
-
-N/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollViewController.h
-c000000004D62BA5B0000000000000113
-t1298315867
-s275
-i<UIKit/UIKit.h>
-
-N/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollViewController.m
-c000000004D62BA5B0000000000000589
-t1298315867
-s1417
-i"PullToRefreshScrollViewController.h"
-
-N/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/MainWindow.xib
-c000000004D62BA5B0000000000004D81
-t1298315867
-s19841
-
-N/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/PullToRefreshScrollViewController.xib
-c000000004D62BA5B0000000000003F11
-t1298315867
-s16145
-
-N/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/PullToRefreshScroll_Prefix.pch
-c000000004D62BA5B00000000000000CF
-t1298315867
-s207
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app
-t1298316124
-s374
-
-N/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app.dSYM
-t1298316124
-s102
-
-N/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app/Info.plist
-t1298316122
-s1042
-
-N/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app/MainWindow.nib
-t1298316123
-s1147
-
-N/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app/PkgInfo
-t1298316122
-s8
-
-N/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app/PullToRefreshScroll
-t1298316124
-s20080
-
-N/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app/PullToRefreshScrollViewController.nib
-t1298316123
-s764
-
-N/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app/ResourceRules.plist
-t1298316122
-s485
-
-N/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app/embedded.mobileprovision
-t1298316124
-s7881
-
-N/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/Objects-normal/armv7/PullToRefreshScroll.LinkFileList
-c000000004D62BB5A00000000000002BA
-t1298316122
-s698
-
-N/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/Objects-normal/armv7/PullToRefreshScrollAppDelegate.o
-t1298316124
-s50244
-
-N/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/Objects-normal/armv7/PullToRefreshScrollView.o
-t1298316124
-s42196
-
-N/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/Objects-normal/armv7/PullToRefreshScrollViewController.o
-t1298316124
-s38216
-
-N/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/Objects-normal/armv7/main.o
-t1298316124
-s6464
-
-N/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/PullToRefreshScroll.xcent
-t1298316124
-s444
-
-N/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/main.m
-c000000004D62BA5B0000000000000176
-t1298315867
-s374
-i<UIKit/UIKit.h>
-
-N/Users/Grenon/Library/MobileDevice/Provisioning Profiles/D3CEEA27-FCBC-43E0-BAD9-C369802C1045.mobileprovision
-c000000004D56F2C40000000000001EC9
-t1297543876
-s7881
-
-N/var/folders/fu/fubKrlHgH0WRSlKvLFlIaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PullToRefreshScroll_Prefix-eqmhsrcllhqtpefzccsnuqcmdfxc/PullToRefreshScroll_Prefix.pch.gch
-t1298316123
-s10446552
-
-NPullToRefreshScroll-Info.plist
-c000000004D62BA5B00000000000004D6
-t1298315867
-s1238
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies320008922#320008922#0(0"0(0#1#0"8659631552#0"0#
-
-CCodeSign /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app
-s320008924.350009
-e320008924.636230
-r1
-xCodeSign
-x/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app
-lSLF07#2@53"CodeSign build/Debug-iphoneos/PullToRefreshScroll.app320008924#320008924#0(0"0(0#0#99"/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app8693865504#771"    cd /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Josh Grenon (Z934AE4KBX)" --resource-rules=/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app/ResourceRules.plist --entitlements /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/PullToRefreshScroll.xcent /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app0#
-
-CCompileC build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/Objects-normal/armv7/PullToRefreshScrollAppDelegate.o /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s320008923.947691
-e320008924.068621
-r1
-xCompileC
-xbuild/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/Objects-normal/armv7/PullToRefreshScrollAppDelegate.o
-x/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollAppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@103"Compile /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollAppDelegate.m320008923#320008924#0(0"0(0#0#95"/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollAppDelegate.m8659796320#2200"    cd /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/PullToRefreshScroll-generated-files.hmap -I/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/PullToRefreshScroll-own-target-headers.hmap -I/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/PullToRefreshScroll-all-target-headers.hmap -iquote /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/PullToRefreshScroll-project-headers.hmap -F/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos -I/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/include -I/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/DerivedSources/armv7 -I/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/DerivedSources -include /var/folders/fu/fubKrlHgH0WRSlKvLFlIaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PullToRefreshScroll_Prefix-eqmhsrcllhqtpefzccsnuqcmdfxc/PullToRefreshScroll_Prefix.pch -c /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollAppDelegate.m -o /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/Objects-normal/armv7/PullToRefreshScrollAppDelegate.o0#
-
-CCompileC build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/Objects-normal/armv7/PullToRefreshScrollView.o /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s320008924.136126
-e320008924.200350
-r1
-xCompileC
-xbuild/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/Objects-normal/armv7/PullToRefreshScrollView.o
-x/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m:45: warning: property 'refreshHeaderView' requires method '-refreshHeaderView' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m:45: warning: property 'refreshHeaderView' requires the method 'setRefreshHeaderView:' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m:45: warning: property 'refreshLabel' requires method '-refreshLabel' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m:45: warning: property 'refreshLabel' requires the method 'setRefreshLabel:' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m:45: warning: property 'refreshArrow' requires method '-refreshArrow' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m:45: warning: property 'refreshArrow' requires the method 'setRefreshArrow:' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m:45: warning: property 'refreshSpinner' requires method '-refreshSpinner' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m:45: warning: property 'refreshSpinner' requires the method 'setRefreshSpinner:' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m:45: warning: property 'textPull' requires method '-textPull' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m:45: warning: property 'textPull' requires the method 'setTextPull:' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m:45: warning: property 'textRelease' requires method '-textRelease' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m:45: warning: property 'textRelease' requires the method 'setTextRelease:' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m:45: warning: property 'textLoading' requires method '-textLoading' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m:45: warning: property 'textLoading' requires the method 'setTextLoading:' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m:45: warning: incomplete implementation of class 'PullToRefreshScrollView'
-o/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m:45: warning: method definition for '-refresh' not found
-o/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m:45: warning: method definition for '-stopLoading' not found
-o/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m:45: warning: method definition for '-startLoading' not found
-o/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m:45: warning: method definition for '-addPullToRefreshHeader' not found
-lSLF07#2@96"Compile /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m320008924#320008924#0(4110"/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m:45: warning: property 'refreshHeaderView' requires method '-refreshHeaderView' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m:45: warning: property 'refreshHeaderView' requires the method 'setRefreshHeaderView:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m:45: warning: property 'refreshLabel' requires method '-refreshLabel' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m:45: warning: property 'refreshLabel' requires the method 'setRefreshLabel:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m:45: warning: property 'refreshArrow' requires method '-refreshArrow' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m:45: warning: property 'refreshArrow' requires the method 'setRefreshArrow:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m:45: warning: property 'refreshSpinner' requires method '-refreshSpinner' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m:45: warning: property 'refreshSpinner' requires the method 'setRefreshSpinner:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m:45: warning: property 'textPull' requires method '-textPull' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m:45: warning: property 'textPull' requires the method 'setTextPull:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m:45: warning: property 'textRelease' requires method '-textRelease' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m:45: warning: property 'textRelease' requires the method 'setTextRelease:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m:45: warning: property 'textLoading' requires method '-textLoading' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m:45: warning: property 'textLoading' requires the method 'setTextLoading:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m:45: warning: incomplete implementation of class 'PullToRefreshScrollView'/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m:45: warning: method definition for '-refresh' not found/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m:45: warning: method definition for '-stopLoading' not found/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m:45: warning: method definition for '-startLoading' not found/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m:45: warning: method definition for '-addPullToRefreshHeader' not found19(22@142"Property 'refreshHeaderView' requires method '-refreshHeaderView' to be defined - use @synthesize, @dynamic or provide a method implementation320008924#0#245#0(6@88"/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m320008922#45#0#45#0#0"0(22@149"Property 'refreshHeaderView' requires the method 'setRefreshHeaderView:' to be defined - use @synthesize, @dynamic or provide a method implementation320008924#245#252#0(6@88"/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m320008922#45#0#45#0#0"0(22@132"Property 'refreshLabel' requires method '-refreshLabel' to be defined - use @synthesize, @dynamic or provide a method implementation320008924#497#235#0(6@88"/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m320008922#45#0#45#0#0"0(22@139"Property 'refreshLabel' requires the method 'setRefreshLabel:' to be defined - use @synthesize, @dynamic or provide a method implementation320008924#732#242#0(6@88"/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m320008922#45#0#45#0#0"0(22@132"Property 'refreshArrow' requires method '-refreshArrow' to be defined - use @synthesize, @dynamic or provide a method implementation320008924#974#235#0(6@88"/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m320008922#45#0#45#0#0"0(22@139"Property 'refreshArrow' requires the method 'setRefreshArrow:' to be defined - use @synthesize, @dynamic or provide a method implementation320008924#1209#242#0(6@88"/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m320008922#45#0#45#0#0"0(22@136"Property 'refreshSpinner' requires method '-refreshSpinner' to be defined - use @synthesize, @dynamic or provide a method implementation320008924#1451#239#0(6@88"/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m320008922#45#0#45#0#0"0(22@143"Property 'refreshSpinner' requires the method 'setRefreshSpinner:' to be defined - use @synthesize, @dynamic or provide a method implementation320008924#1690#246#0(6@88"/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m320008922#45#0#45#0#0"0(22@124"Property 'textPull' requires method '-textPull' to be defined - use @synthesize, @dynamic or provide a method implementation320008924#1936#227#0(6@88"/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m320008922#45#0#45#0#0"0(22@131"Property 'textPull' requires the method 'setTextPull:' to be defined - use @synthesize, @dynamic or provide a method implementation320008924#2163#234#0(6@88"/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m320008922#45#0#45#0#0"0(22@130"Property 'textRelease' requires method '-textRelease' to be defined - use @synthesize, @dynamic or provide a method implementation320008924#2397#233#0(6@88"/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m320008922#45#0#45#0#0"0(22@137"Property 'textRelease' requires the method 'setTextRelease:' to be defined - use @synthesize, @dynamic or provide a method implementation320008924#2630#240#0(6@88"/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m320008922#45#0#45#0#0"0(22@130"Property 'textLoading' requires method '-textLoading' to be defined - use @synthesize, @dynamic or provide a method implementation320008924#2870#233#0(6@88"/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m320008922#45#0#45#0#0"0(22@137"Property 'textLoading' requires the method 'setTextLoading:' to be defined - use @synthesize, @dynamic or provide a method implementation320008924#3103#240#0(6@88"/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m320008922#45#0#45#0#0"0(22@60"Incomplete implementation of class 'PullToRefreshScrollView'320008924#3343#163#0(6@88"/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m320008922#45#0#45#0#38"incomplete implementation of class '*'0(22@42"Method definition for '-refresh' not found320008924#3506#145#0(6@88"/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m320008922#45#0#45#0#35"method definition for '*' not found0(22@46"Method definition for '-stopLoading' not found320008924#3651#149#0(6@88"/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m320008922#45#0#45#0#35"method definition for '*' not found0(22@47"Method definition for '-startLoading' not found320008924#3800#150#0(6@88"/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m320008922#45#0#45#0#35"method definition for '*' not found0(22@57"Method definition for '-addPullToRefreshHeader' not found320008924#3950#160#0(6@88"/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m320008922#45#0#45#0#35"method definition for '*' not found0(0#0#88"/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m8725855392#2186"    cd /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/PullToRefreshScroll-generated-files.hmap -I/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/PullToRefreshScroll-own-target-headers.hmap -I/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/PullToRefreshScroll-all-target-headers.hmap -iquote /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/PullToRefreshScroll-project-headers.hmap -F/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos -I/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/include -I/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/DerivedSources/armv7 -I/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/DerivedSources -include /var/folders/fu/fubKrlHgH0WRSlKvLFlIaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PullToRefreshScroll_Prefix-eqmhsrcllhqtpefzccsnuqcmdfxc/PullToRefreshScroll_Prefix.pch -c /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollView.m -o /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/Objects-normal/armv7/PullToRefreshScrollView.o0#
-
-CCompileC build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/Objects-normal/armv7/PullToRefreshScrollViewController.o /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s320008924.068727
-e320008924.152025
-r1
-xCompileC
-xbuild/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/Objects-normal/armv7/PullToRefreshScrollViewController.o
-x/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@106"Compile /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollViewController.m320008924#320008924#0(0"0(0#0#98"/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollViewController.m8728076352#2206"    cd /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/PullToRefreshScroll-generated-files.hmap -I/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/PullToRefreshScroll-own-target-headers.hmap -I/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/PullToRefreshScroll-all-target-headers.hmap -iquote /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/PullToRefreshScroll-project-headers.hmap -F/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos -I/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/include -I/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/DerivedSources/armv7 -I/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/DerivedSources -include /var/folders/fu/fubKrlHgH0WRSlKvLFlIaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PullToRefreshScroll_Prefix-eqmhsrcllhqtpefzccsnuqcmdfxc/PullToRefreshScroll_Prefix.pch -c /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/Classes/PullToRefreshScrollViewController.m -o /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/Objects-normal/armv7/PullToRefreshScrollViewController.o0#
-
-CCompileC build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/Objects-normal/armv7/main.o /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s320008923.946335
-e320008924.136034
-r1
-xCompileC
-xbuild/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/Objects-normal/armv7/main.o
-x/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/main.m320008923#320008924#0(0"0(0#0#61"/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/main.m8721485056#2140"    cd /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/PullToRefreshScroll-generated-files.hmap -I/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/PullToRefreshScroll-own-target-headers.hmap -I/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/PullToRefreshScroll-all-target-headers.hmap -iquote /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/PullToRefreshScroll-project-headers.hmap -F/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos -I/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/include -I/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/DerivedSources/armv7 -I/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/DerivedSources -include /var/folders/fu/fubKrlHgH0WRSlKvLFlIaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PullToRefreshScroll_Prefix-eqmhsrcllhqtpefzccsnuqcmdfxc/PullToRefreshScroll_Prefix.pch -c /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/main.m -o /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/Objects-normal/armv7/main.o0#
-
-CCompileXIB /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/MainWindow.xib
-s320008922.748180
-e320008923.116417
-r1
-xCompileXIB
-x/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib320008922#320008923#0(0"0(0#0#69"/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/MainWindow.xib8728895488#602"    cd /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app/MainWindow.nib /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
-
-CCompileXIB /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/PullToRefreshScrollViewController.xib
-s320008922.748885
-e320008923.117460
-r1
-xCompileXIB
-x/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/PullToRefreshScrollViewController.xib
-lSLF07#2@48"CompileXIB PullToRefreshScrollViewController.xib320008922#320008923#0(0"0(0#0#92"/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/PullToRefreshScrollViewController.xib8728613568#648"    cd /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app/PullToRefreshScrollViewController.nib /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/PullToRefreshScrollViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
-
-CCpResource build/Debug-iphoneos/PullToRefreshScroll.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-s320008922.707143
-e320008922.747554
-r1
-xCpResource
-xbuild/Debug-iphoneos/PullToRefreshScroll.app/ResourceRules.plist
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist320008922#320008922#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8725571072#538"    cd /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app0#
-
-CGenerateDSYMFile /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app.dSYM /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app/PullToRefreshScroll
-s320008924.276637
-e320008924.295604
-r1
-xGenerateDSYMFile
-x/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app.dSYM
-x/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app/PullToRefreshScroll
-lSLF07#2@131"GenerateDSYMFile build/Debug-iphoneos/PullToRefreshScroll.app.dSYM build/Debug-iphoneos/PullToRefreshScroll.app/PullToRefreshScroll320008924#320008924#0(0"0(0#0#119"/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app/PullToRefreshScroll8655734464#446"    cd /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app/PullToRefreshScroll -o /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app.dSYM0#
-
-CLd /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app/PullToRefreshScroll normal armv7
-s320008924.200431
-e320008924.276401
-r1
-xLd
-x/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app/PullToRefreshScroll
-xnormal
-xarmv7
-lSLF07#2@124"Link /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app/PullToRefreshScroll320008924#320008924#0(0"0(0#0#0"8661153088#962"    cd /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos -F/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos -filelist /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/Objects-normal/armv7/PullToRefreshScroll.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app/PullToRefreshScroll0#
-
-CProcessInfoPlistFile /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app/Info.plist PullToRefreshScroll-Info.plist
-s320008922.708211
-e320008922.748118
-r1
-xProcessInfoPlistFile
-x/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app/Info.plist
-xPullToRefreshScroll-Info.plist
-lSLF07#2@38"Process PullToRefreshScroll-Info.plist320008922#320008922#0(0"0(0#0#85"/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/PullToRefreshScroll-Info.plist8721417344#674"    cd /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility PullToRefreshScroll-Info.plist -genpkginfo /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app/ResourceRules.plist -o /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app/Info.plist0#
-
-CProcessPCH /var/folders/fu/fubKrlHgH0WRSlKvLFlIaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PullToRefreshScroll_Prefix-eqmhsrcllhqtpefzccsnuqcmdfxc/PullToRefreshScroll_Prefix.pch.gch PullToRefreshScroll_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-s320008923.117559
-e320008923.946235
-r1
-xProcessPCH
-x/var/folders/fu/fubKrlHgH0WRSlKvLFlIaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PullToRefreshScroll_Prefix-eqmhsrcllhqtpefzccsnuqcmdfxc/PullToRefreshScroll_Prefix.pch.gch
-xPullToRefreshScroll_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@41"Precompile PullToRefreshScroll_Prefix.pch320008923#320008923#0(0"0(0#0#85"/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/PullToRefreshScroll_Prefix.pch8726223264#2010"    cd /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/PullToRefreshScroll-generated-files.hmap -I/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/PullToRefreshScroll-own-target-headers.hmap -I/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/PullToRefreshScroll-all-target-headers.hmap -iquote /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/PullToRefreshScroll-project-headers.hmap -F/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos -I/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/include -I/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/DerivedSources/armv7 -I/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/DerivedSources -c /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/PullToRefreshScroll_Prefix.pch -o /var/folders/fu/fubKrlHgH0WRSlKvLFlIaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PullToRefreshScroll_Prefix-eqmhsrcllhqtpefzccsnuqcmdfxc/PullToRefreshScroll_Prefix.pch.gch0#
-
-CProcessProductPackaging "/Users/Grenon/Library/MobileDevice/Provisioning Profiles/D3CEEA27-FCBC-43E0-BAD9-C369802C1045.mobileprovision" /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app/embedded.mobileprovision
-s320008924.295709
-e320008924.336210
-r1
-xProcessProductPackaging
-x/Users/Grenon/Library/MobileDevice/Provisioning Profiles/D3CEEA27-FCBC-43E0-BAD9-C369802C1045.mobileprovision
-x/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app/embedded.mobileprovision
-lSLF07#2@205"ProcessProductPackaging "/Users/Grenon/Library/MobileDevice/Provisioning Profiles/D3CEEA27-FCBC-43E0-BAD9-C369802C1045.mobileprovision" build/Debug-iphoneos/PullToRefreshScroll.app/embedded.mobileprovision320008924#320008924#0(0"0(0#0#124"/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app/embedded.mobileprovision8616125472#468"    cd /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/Grenon/Library/MobileDevice/Provisioning Profiles/D3CEEA27-FCBC-43E0-BAD9-C369802C1045.mobileprovision" -o /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app/embedded.mobileprovision0#
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/PullToRefreshScroll.xcent
-s320008924.339836
-e320008924.349931
-r1
-xProcessProductPackaging
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
-x/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/PullToRefreshScroll.xcent
-lSLF07#2@211"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/PullToRefreshScroll.xcent320008924#320008924#0(0"0(0#0#153"/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/PullToRefreshScroll.xcent8726120480#500"    cd /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/PullToRefreshScroll.build/Debug-iphoneos/PullToRefreshScroll.build/PullToRefreshScroll.xcent0#
-
-CTouch /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app
-s320008924.336281
-e320008924.339741
-r1
-xTouch
-x/Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app
-lSLF07#2@105"Touch /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app320008924#320008924#0(0"0(0#0#0"8728893248#308"    cd /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Grenon/Documents/MotionMobs/PullToRefreshScroll/build/Debug-iphoneos/PullToRefreshScroll.app0#
-
